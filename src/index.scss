@@ -1,0 +1,55 @@
+$ColorOne: rgb(221, 217, 217);
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #326ab8;
+  
+}
+input {
+  font-size: 30px;
+  color: crimson;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  border-radius: 10px;
+}
+
+
+.wrapper {
+    width: 70vw;
+    height: 70vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    background-image: linear-gradient(to top, #accbee 0%, #6b91c7 100%);
+    overflow: hidden;
+  }
+  
+  .wave {
+    width: 1000px;
+    height: 1025px;
+    position: absolute;
+    top: -25%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -500px;
+    border-radius: 35%;
+    background: rgba(255, 255, 255, .75);
+    animation: wave 15s infinite linear;
+  }
+  
+  @keyframes wave {
+    from { transform: rotate(0deg);}
+    from { transform: rotate(360deg);}
+  }
+  
